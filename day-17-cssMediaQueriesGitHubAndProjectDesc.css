@@ -1,0 +1,67 @@
+/* screen size is in the range of 0-1200 */
+/* @media only screen and (max-width: 1200px) {
+  h2 {
+    color: yellow;
+    font-size: 12.5px;
+  }
+  p {
+    color: yellowgreen;
+  }
+} */
+
+/* screen size is in the range of 0-800 */
+/* @media only screen and (max-width: 800px) {
+  h2 {
+    color: red;
+    font-size: 15px;
+  }
+  p {
+    color: aqua;
+  }
+} */
+
+/* screen size is in the range of 0-400 */
+/* @media screen and (max-width: 400px) {
+  h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  p {
+    color: brown;
+  }
+} */
+
+/* 
+>> max-width 
+      Eg: max-width: 400px {Screen size is <=400px} => atmost
+>> min-width
+      Eg: min-width: 400px {Screen size is >=400px} => atleast
+*/
+
+/* screen size is in the range of 400> */
+@media screen and (min-width: 400px) {
+    h2 {
+      color: blue;
+      font-size: 20px;
+    }
+    p {
+      color: brown;
+    }
+  }
+  
+  /* screen size is in the range of 800> */
+  @media screen and (min-width: 800px) {
+    h2 {
+      color: red;
+      font-size: 20px;
+    }
+    p {
+      color: yellow;
+    }
+  }
+  
+  /* 
+  atleast 50 % => min-width
+  atmost 50 % => max-width
+  */
+  

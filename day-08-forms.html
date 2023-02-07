@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms in Html</title>
+    </head>
+    <body>
+
+        
+        <br />
+        <br/>
+        <hr />
+        <!-- forms -->
+
+        <table>
+            <tr>
+                <td><label>User Name </label></td>
+                <td><input type="file" placeholder="Plz enter ur user name"  required/></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" placeholder="Plz enter ur pwd" value="" required/></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td> <input type="radio" name="gender" checked/><label>Male</label> 
+                    <input type="radio" name="gender"/><label>Female</label> 
+                    <input type="radio" name="gender"/><label>Prefer Not To Say</label> </td>
+            </tr>
+            <tr>
+                <td><label>Select Courses Your Aware About:</label></td>
+                <td><input type="checkbox" value="c"  name="course"/><label>C</label>
+                    <input type="checkbox" value="cpp" name="course"/><label>C++</label>
+                    <input type="checkbox" value="java" name="course" checked disabled/><label>Java</label>
+                    <input type="checkbox" value="py" name="course"/><label>Python</label></td>
+            </tr>
+            <tr>
+                <td><label>Choose Your Course:</label></td>
+                <td><select>
+                    <option value=""></option>
+                    <option value="web">Web Development</option>
+                    <option value="ds">Data Science</option>
+                    <option value="ml">Machine Learning</option>
+                    <option value="ai">AI</option>
+                    <option value="bd">Big Data</option>
+                </select></td>
+            </tr>
+            <tr>
+                <!-- <td><label>Submit:</label></td> -->
+                <td></td>
+                <td><input type="submit"/></td>
+            </tr>
+            <tr>
+                <!-- <td><label>Reset:</label></td> -->
+                <td></td>
+                <td><input type="reset"/></td>
+            </tr>
+        </table>
+
+        <br/>
+        <hr/>
+        <form>
+            <label>User Name </label>
+            <input type="text" placeholder="Plz enter ur user name"  required/>
+
+            <br />
+            <br />
+            
+            <label>Password:</label>
+            <input type="password" placeholder="Plz enter ur pwd" value="" required/>
+
+            <br />
+            <br/>
+
+            <!-- ctrl+alt+arrowKey(top|down) -->
+            <label>Gender:</label>
+            <input type="radio" name="gender" checked/><label>Male</label> 
+            <input type="radio" name="gender"/><label>Female</label> 
+            <input type="radio" name="gender"/><label>Prefer Not To Say</label> 
+
+            <br/>
+            <br/>
+            
+            <label>Select Courses Your Aware About:</label>
+            <input type="checkbox" value="c"  name="course"/><label>C</label>
+            <input type="checkbox" value="cpp" name="course"/><label>C++</label>
+            <input type="checkbox" value="java" name="course" checked disabled/><label>Java</label>
+            <input type="checkbox" value="py" name="course"/><label>Python</label>
+
+            <br/>
+            <br/>
+
+            <label>Choose Your Course:</label>
+            <select>
+                <option value=""></option>
+                <option value="web">Web Development</option>
+                <option value="ds">Data Science</option>
+                <option value="ml">Machine Learning</option>
+                <option value="ai">AI</option>
+                <option value="bd">Big Data</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <input type="submit"/>
+            <input type="reset"/>
+        </form>
+    </body>
+</html>
+
+
+<!-- 
+    html: to juz get some contents on screen
+    css: to get some styles
+    js: to work with som logic n we can make our appln dynamic
+ -->

@@ -1,0 +1,78 @@
+/* 1. Element Selector */
+/* h2{
+    color: yellow;
+    background-color: black;
+} */
+/* p{
+    color: yellow;
+    background-color: black;
+} */
+
+/* 2. Element Selector List */
+/* h2,p{
+    color: yellow;
+    background-color: black;
+} */
+
+/* 3. Universal Selector */
+/* *{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+} */
+
+/* 4. ID Selector */
+/* #h2Count3{
+    color: green;
+    border: 2px dotted red;
+    background-color: black;
+} */
+
+/* 5. Class Selector */
+/* .h2ClassSelector{
+    color: pink;
+    background: black;
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+} */
+
+/* Units in CSS */
+/* px, %, vh, vw, rem, em */
+
+/* 6. Descendant Selector */
+/* parent  any child */
+/* li a{
+    color: white;
+    background: black;
+} */
+/* b i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* 7. Direct Child */
+/* parent > direct child */
+/* u > i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* 
+h5{
+    color: yellow;
+    background-color: darkmagenta;
+} */
+
+h6{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    /* padding: 10px 15px 20px 25px; */
+    /* padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px; */
+    margin: 30px 25px 20px 10px;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video, Audio, iFrame And Semantic Tags</title>
+  </head>
+  <body>
+    <h6>Here is our video to be displayed on UI</h6>
+    <!-- .mp4, .ogg -->
+    <video controls autoplay loop width="320" height="240">
+      <source src="sample.mp4" type="video/mp4" />
+      <!-- <source src="sample.mp4" type="video/mp4" /> -->
+      Hey you browser does not support the video tag
+    </video>
+    <video src="sample.mp4" controls autoplay loop width="320" height="240">
+      <!-- <source src="sample.mp4" type="video/mp4" /> -->
+      <!-- <source src="sample.mp4" type="video/mp4" /> -->
+      Hey you browser does not support the video tag
+    </video>
+
+    <audio controls autoplay loop>
+      <source src="file_example_MP3_700KB.mp3" type="audio/mp3" />
+    </audio>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0WX9YTMI0r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </body>
+</html>

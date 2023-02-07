@@ -1,0 +1,56 @@
+.parent{
+    /* height: 1150px; */
+    background-color: black;
+    display: flex;
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: center;
+    gap: 10px;
+    /* row: flex-start, flex-end, center, space-around, space-between, space-evenly */
+    justify-content: center;
+
+    /* column: felx-start, flex-end, center, stretch */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.child{
+    height: 100px;
+    width: 100px;
+    /* flex: 1; */
+    background-color: white;
+    border: 2px solid red;
+    /* margin-right: 10px; */
+    justify-content: center;
+}
+
+
+
+
+
+/* Animations */
+button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Transition Properties */
+    /* transition-delay: 250ms; */
+    /* transition-duration: 500ms; */
+    /* all */
+    /* transition-property: background-color color; */
+    /* linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(0.22, 0.75, 0.85, -0.32); */
+    /* transition-timing-function: cubic-bezier(0.22, 0.75, 0.85, -0.32); */
+    
+
+    transition: all cubic-bezier(0.22, 0.75, 0.85, -0.32) 250ms 500ms;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+

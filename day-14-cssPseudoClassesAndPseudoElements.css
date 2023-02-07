@@ -1,0 +1,127 @@
+/* 
+Hover State: 
+        >> Pointing the cursor on the button 
+*/
+/* button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+} */
+
+/* 
+Active State: 
+        >> When we we hold left key of the mouse it will be in active statae
+*/
+/* button:active{
+    border: 10px solid red;
+} */
+
+/* 
+Focus State:
+        >> Indicating you already visisted that button / or opened or clicked the btn
+ */
+ /* button:focus{
+    background-color: pink;
+    color: white;
+ } */
+
+
+ /* anchor un-visisted link state */
+ /* a:link{
+    color: red;
+ } */
+
+ /* a:visited{
+    color: green;
+ } */
+
+ /* a:hover{
+    cursor: progress;
+ } */
+
+ /* span{
+    padding: 8px;
+    margin: 8px;
+    background-color: yellow;
+ } */
+
+ /* First Child */
+/* span:first-child{
+    background-color: red;
+} */
+
+/* Last Child */
+/* span:last-child{
+    background-color: red;
+} */
+
+/* nth child (eg 3rd child) */
+/* span:nth-child(3){
+    background-color: pink;
+} */
+
+/* styles for even child number */
+/* span:nth-child(even){
+    background-color: aqua;
+} */
+
+/* span:nth-child(odd){
+    background-color: aqua;
+} */
+
+
+/* Psuedo Elements :: before */
+/* h1::before{
+    content: "hello ";
+    background-color: black;
+    color: white;
+} */
+
+/* Psuedo Elements :: after */
+/* h1::after{
+    content: " g'morning";
+} */
+
+
+.shape{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape::before{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+/* px,%,em,rem,vh,vw */
+
+.shape::after{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+
+
+/* 
+>> Flex Box
+>> Animations 
+>> Git Sessions
+>> Static Projects (HTML, CSS)
+>> ....
+*/
